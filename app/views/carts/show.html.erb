@@ -2,7 +2,7 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-
+  
   <% if cart.empty? %>
     <div class="alert alert-light">
      <p>Your shopping cart is empty.</p>
@@ -30,12 +30,11 @@
               TOTAL:
             </th>
             <th>
-              <%= cart_subtotal_cents / 100.0 %>
+              $ <%= cart_subtotal_cents / 100.0 %>
             </th>
           </tr>
         </tfoot>
       </table>
-    </div>
 
     <div class="row">
       <div class="col-xs-12">
