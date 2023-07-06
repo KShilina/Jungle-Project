@@ -1,13 +1,27 @@
-<section class="orders-show">
+<%# check the output %>
+<%# <%puts "----ADD HERE------"%>
+<%# <%puts @order.line_items.inspect%> 
 
+<section class="orders-show">
   <header class="page-header">
     <h1>Order #<%= @order.id %></h1>
   </header>
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
-  </div>
 
+<div class="order-details">
+    <% @order.line_items.each do |line_item| %>
+      <%= render partial: 'line_item', locals: { line_item: line_item } %>
+    <% end %>
+
+    <div class="order-amount">
+      <p><strong>Total amount to pay:</strong> <%= humanized_money_with_symbol @order.total_cents / 100.0 %></p>
+      <p><strong>Your Email:</strong> <%= @order.email %></p>
+    </div>
+  </div>
+  <h4>Thank you for your order!</h4>
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
 
+  </div>
+  
 </section>

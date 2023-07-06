@@ -19,6 +19,8 @@ class OrdersController < ApplicationController
     redirect_to cart_path, flash: { error: e.message }
   end
 
+  
+
   private
 
   def empty_cart!
@@ -55,5 +57,7 @@ class OrdersController < ApplicationController
     order.save!
     order
   end
+
+ 
 
 end
