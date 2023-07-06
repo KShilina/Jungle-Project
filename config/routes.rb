@@ -2,6 +2,9 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
 
+  get 'admin/dashboard', to: 'admin_dashboard#show'
+
+
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
