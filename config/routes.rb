@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'about/index'
   root to: 'products#index'
 
   get 'admin/dashboard', to: 'admin_dashboard#show'
