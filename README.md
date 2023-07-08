@@ -29,3 +29,43 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+## Screenshots of Application
+###  Main page
+
+!["Screenshot of the main page"](docs/index.png)
+###  Admin categories
+
+!["Screenshot of the Admin Categories"](docs/Admin_categories.png)
+
+### Admin Dashboard
+!["Screenshot of the Admin Dashboard"](docs/Admin_dashboard.png)
+
+### Admin products
+!["Screenshot of the Admin Products"](docs/Admin_products.png)
+
+### About Us
+!["Screenshot of the About us"](docs/About_us.png)
+
+### Login Form
+!["Screenshot of the Login Form"](docs/Login.png)
+
+### As Login User
+!["Screenshot of the As Login User"](docs/User_login.png)
+
+### SignUp Form
+!["Screenshot of the SignUp Form"](docs/SignUp.png)
+
+### My Cart
+!["Screenshot of the My Cart"](docs/Mycart.png)
+
+### Products
+!["Screenshot of the Products"](docs/products.png)
+
+### Payment
+!["Screenshot of the Payment"](docs/Payment.png)
+
+### Thank you for your order!
+!["Screenshot of the "Thank you for your order!"](docs/Thank_you_for_your_order.png)
+
+
+
