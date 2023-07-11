@@ -40,8 +40,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ### Admin Dashboard
 !["Screenshot of the Admin Dashboard"](docs/Admin_dashboard.png)
 
-### Admin products
+### Admin Products
 !["Screenshot of the Admin Products"](docs/Admin_products.png)
+
+### Admin Sales
+!["Screenshot of the Admin Sales"](docs/admin_sales.png)
 
 ### About Us
 !["Screenshot of the About us"](docs/About_us.png)
