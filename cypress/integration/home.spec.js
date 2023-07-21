@@ -1,4 +1,3 @@
-// const { beforeEach, it } = require("mocha")
 
 describe("Jungle App", () =>{
   beforeEach(()=>{
@@ -7,7 +6,6 @@ describe("Jungle App", () =>{
 
   it('displays the home page correctly', () => {
     cy.get('.navbar').should('be.visible')
-    // cy.get('.products').should('be.visible')
   }) 
 
   it("There is products on the page", () => {
