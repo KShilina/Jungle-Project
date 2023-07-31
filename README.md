@@ -2,6 +2,16 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Run the project
+
+To start the Rails server use:
+```
+bin/rails server -b 0.0.0.0
+```
+ Have terminal tab open within the Jungle application directory
+
+ Then open browser on `http://localhost:3000/` to run the project.
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
